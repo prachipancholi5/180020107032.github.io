@@ -9,7 +9,9 @@
 	<title>
 		Movie Seat Reservation
 	</title>
-	<body>
+	<body> 
+	        <h1> NAME:PRACHI PANCHOLI </h1>
+                <h1> EN.NO.:180020107032 </h1>
 		<div class="text-center">
 			<label id='title'>MOVIE SEAT RESERVATION</label>
 		</div>
