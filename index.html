@@ -100,5 +100,35 @@ tr:nth-child(even) {
   </tr>
    </table>
   </div>
+       <script>
+        function showLec() {
+            document.getElementById("lec").style.display = "block";
+            document.getElementById("lab").style.display = "none";
+            document.getElementById("lec_button").style.backgroundColor = "#ff9933";
+            document.getElementById("lab_button").style.backgroundColor = "#ffff00";
+
+        }
+        function showLab() {
+            document.getElementById("lab").style.display = "block";
+            document.getElementById("lec").style.display = "none";
+            document.getElementById("lec_button").style.backgroundColor = "#ffff00";
+            document.getElementById("lab_button").style.backgroundColor = "#ff9933";
+        }
+
+        
+            const countEl = document.getElementById('count');
+
+            updateVisitCount();
+
+            function updateVisitCount() {
+                fetch('https://api.countapi.xyz/update/prachi/wep/?amount=1')
+                .then(res => res.json())
+                .then(res => {
+                    countEl.innerHTML = res.value;
+                })
+            }
+        
+        
+    </script>
 </body>
 </html>
