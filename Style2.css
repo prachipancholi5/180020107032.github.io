@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.head {
+    background-color:rgb(70, 216, 50) ;
+    display: inline-block;
+    width: 100%;
+}
+.head img{
+    float: left;
+    position: relative;
+    width: 100px;
+    left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.head h1{
+    position: relative;
+    top: 18px;
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 2px khaki;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline;
+    margin: 20px 40px;
+    font-size: 25px;
+}
+.navbar {
+    background-color: khaki;
+    padding: 10px;
+}
+.container{
+    background-color:rgb(120, 238, 104) ;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+.container h1{
+    text-align: center;
+    color: red;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 2.5em;
+}
+.container form {
+    margin: auto;
+    background-color: rgb(154, 235, 62);
+    width: 50%;
+    padding: 50px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.container form table tr td label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.container form table tr td input {
+    border: 2px solid blueviolet;
+    width: 100%;
+    padding: 5px;
+    background-color:rgba(200, 158, 216, 0.562) ;
+}
+#submit {
+    position: relative;
+    left: 48%;
+    top: 10px;
+    padding: 10px;
+    color:rgb(47, 6, 88);
+    border: 2px solid black;
+    background-color: rgb(154, 235, 62);
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 20px;
+}
+footer{
+    background-color: rgb(238, 48, 80);
+}
+footer h3 {
+    text-align: center;
+    color: #fff;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
