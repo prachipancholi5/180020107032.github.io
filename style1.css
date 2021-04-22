@@ -1,0 +1,49 @@
+*
+body{
+background-image:url("https://images.unsplash.com/photo-1557683325-3ba8f0df79de?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80");
+}
+form {
+  border: 3px solid #f1f1f1;
+}
+input[type=text], input[type=password] ,input[type=number]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 180px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+button:hover {
+  opacity: 0.8;
+}
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f443;
+}
+.container {
+  padding: 100px;
+  margin: 50px 250px;
+}
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
