@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<header> <b> NAME:PRACHI PANCHOLI <br> EN. NO.:180020107032 </b></header>
+<style>
+p {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+</style>
+</head>
+<body style="background-image: url('https://wallpapercave.com/wp/wp4465057.jpg');">
+<p id="demo"></p>
+<script>
+var var1 = setInterval(time, 1000);
+var fs = 5;
+var a = document.getElementById("demo");
+function time() {
+a.innerHTML = 'AHMEDABAD INSTITUTE OF TECHNOLOGY';
+a.setAttribute('style', "font-size: " + fs + "px; color: RED");
+fs += 5;
+if(fs >= 55 ){
+clearInterval(var1);
+}
+}
+
+</script>
+</body>
+</html>
