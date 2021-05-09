@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Factorial of Number </title>
+</head>
+<body>
+<h1>NAME:PANCHOLI PRACHI <BR>EN.NO.:180020107032 </BR> </h1>	
+<h1> Factorial of Number using JavaScript </h1>
+<h2> Enter the valid number...! </h2>
+<input type = "number" min="1" id = "num">
+<button type = "button" onclick = "submit()"> Submit </button>
+<h3> Factorial: <span id = "answer"> </span> </h3>
+<script>
+// This function will get value from user and pass it to Factorial function
+function submit()
+{
+var num = parseInt( document.getElementById("num").value);
+if( isNaN(num) )
+{
+alert(" Enter valid number ");
+return;
+}
+var factorial = calcFact(num);
+document.getElementById("answer").innerHTML = factorial;
+}
+function calcFact( num )
+{
+var i;
+var fact = 1;
+for( i = 1; i <= num; i++ )
+{
+fact = fact * i;
+}
+return fact;
+}
+</script>
+</body>
+</html>
